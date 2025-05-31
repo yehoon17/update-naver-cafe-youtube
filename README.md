@@ -16,11 +16,44 @@
 
 
 
-## 🛠️ 설치 방법
+## 🛠️ 사용법
 
-```bash
-pip install pyautogui pyperclip opencv-python
-```
+**깃허브에서 레포지토리를 클론**
+
+   ```bash
+   git clone https://github.com/yehoon17/update-naver-cafe-youtube.git
+   ```
+
+#### 로컬 
+**가상 환경 설정(optional)**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+
+1. 필요한 종속성을 설치
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. 설정 파일 수정
+   - `config.json` 파일 열기
+   - 각 항목의 내용 수정
+     - "youtube_channel_name": 유튜브 채널 이름
+     - "naver_cafe_id": 네이버 카페 id(카페 관리 페이지에서 확인)
+     - "chrome_path": 크롬 실행 파일 경로(윈도우 OS 기본값으로 설정되어 있음)
+
+
+3. 스크립트 실행
+
+   ```bash
+   python update_script.py
+   ```
+
+4. 자동으로 Chrome이 실행되고 유튜브, 네이버 카페를 순서대로 조작합니다.
+
 
 
 
@@ -39,13 +72,6 @@ pip install pyautogui pyperclip opencv-python
 * `pyautogui`를 이용해 실제 사람처럼 마우스와 키보드를 조작합니다.
 * 네이버에 Chrome 로그인이 되어 있어야 합니다.
 * 크롬 창이 열리고 화면이 보이는 상태여야 정상 작동합니다.
-
-
-
-## 🧪 사용법
-
-1. `update_script.py`를 실행합니다.
-2. 자동으로 Chrome이 실행되고 유튜브, 네이버 카페를 순서대로 조작합니다.
 
 
 
