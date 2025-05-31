@@ -2,7 +2,7 @@
 
 이 프로그램은 가장 최근 유튜브 영상의 URL을 네이버 카페의 대문(HTML)에 자동으로 반영하는 자동화 스크립트입니다.
 
----
+
 
 ## 🔧 기능
 
@@ -14,7 +14,7 @@
 6. "바로 적용" 버튼 클릭
 7. 완료 팝업 닫기
 
----
+
 
 ## 🛠️ 설치 방법
 
@@ -22,7 +22,7 @@
 pip install pyautogui pyperclip opencv-python
 ```
 
----
+
 
 ## 이미지 파일
 
@@ -32,7 +32,7 @@ pip install pyautogui pyperclip opencv-python
 * `html_checkbox.png` – HTML 모드 체크박스
 * `apply_button.png` – "바로 적용" 버튼
 
----
+
 
 ## 🖱️ 마우스 및 키보드 조작
 
@@ -40,21 +40,21 @@ pip install pyautogui pyperclip opencv-python
 * 네이버에 Chrome 로그인이 되어 있어야 합니다.
 * 크롬 창이 열리고 화면이 보이는 상태여야 정상 작동합니다.
 
----
+
 
 ## 🧪 사용법
 
 1. `update_script.py`를 실행합니다.
 2. 자동으로 Chrome이 실행되고 유튜브, 네이버 카페를 순서대로 조작합니다.
 
----
+
 
 ## 📌 주의사항
 
 * 모니터 해상도 및 크롬 UI 위치가 변경되면 이미지 인식이 실패할 수 있습니다.
 * 모든 이미지 파일은 너무 크거나 작지 않게, **정확하게 해당 UI 요소만 잘라서** 저장하세요.
 * DPI 스케일이 100%여야 가장 안정적으로 작동합니다.
----
+
 
 ## 🤝 기여 방법 (Contributing)
 
