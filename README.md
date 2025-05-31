@@ -42,7 +42,7 @@
    - `config.json` 파일 열기
    - 각 항목의 내용 수정
      - "youtube_channel_name": 유튜브 채널 이름
-     - "naver_cafe_id": 네이버 카페 id(카페 관리 페이지에서 확인)
+     - "naver_cafe_id": 네이버 카페 id([카페 관리 페이지](https://github.com/yehoon17/update-naver-cafe-youtube/blob/master/assets/naver_cafe_id.png)에서 확인)
      - "chrome_path": 크롬 실행 파일 경로(윈도우 OS 기본값으로 설정되어 있음)
 
 
