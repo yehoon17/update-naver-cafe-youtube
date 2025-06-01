@@ -1,5 +1,8 @@
 {
   "youtube_channel_name": "YourChannelName",
   "naver_cafe_id": "000000000",
-  "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "wait_time_for_youtube": 3,
+  "wait_time_for_web": 1,
+  "wait_time_for_input": 0.3
 }

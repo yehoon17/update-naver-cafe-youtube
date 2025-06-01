@@ -18,9 +18,9 @@ YOUTUBE_VIDEOS_URL = f"https://www.youtube.com/@{YOUTUBE_CHANNEL_NAME}/videos"
 NAVER_CAFE_ID = config["naver_cafe_id"]
 NAVER_CAFE_MANAGE_GATE_EDITOR_URL = f"https://cafe.naver.com/ManageGateEditor.nhn?clubid={NAVER_CAFE_ID}"
 
-WAIT_TIME_FOR_YOUTUBE = 3
-WAIT_TIME_FOR_WEB = 1
-WAIT_TIME_FOR_INPUT = 0.3
+WAIT_TIME_FOR_YOUTUBE = config["wait_time_for_youtube"]
+WAIT_TIME_FOR_WEB = config["wait_time_for_web"]
+WAIT_TIME_FOR_INPUT = config["wait_time_for_input"]
 
 
 def click_image(image_name, confidence=0.9, timeout=10):
